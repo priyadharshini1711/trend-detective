@@ -1,0 +1,12 @@
+# Render.com blueprint for the optional FastAPI backend (free tier is fine)
+services:
+  - type: web
+    name: trend-detective-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.0

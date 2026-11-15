@@ -1,0 +1,11 @@
+node_modules/
+dist/
+__pycache__/
+.venv/
+.env
+*.pyc
+.pytest_cache/
+
+# local dev casebook store (npm run dev)
+.data/
+.netlify/

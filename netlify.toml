@@ -1,0 +1,24 @@
+# Netlify: deploy the React app; proxy NASA POWER through Netlify so the browser never hits CORS.
+[build]
+  base    = "frontend"
+  command = "npm ci && npm run build"
+  publish = "dist"
+
+# "My cases" sync: netlify/functions/cases.mts stores casebooks in Netlify Blobs (free, no setup).
+[functions]
+  directory = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "22"
+  # VITE_API_URL = "https://<your-fastapi>.onrender.com"   # optional: enables "Verify with Python"
+
+[[redirects]]
+  from   = "/power/*"
+  to     = "https://power.larc.nasa.gov/:splat"
+  status = 200
+  force  = true
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
