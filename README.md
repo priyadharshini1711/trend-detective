@@ -2,6 +2,8 @@
 
 **NASA Space Apps Challenge 2026 · Earth System Trend Detective**
 
+🌍 **Live app:** https://trend-detective.netlify.app/ · 💻 **Source:** https://github.com/priyadharshini1711/trend-detective · 🎬 **Demo video:** [Trend-Detective-Demo-Voiceover.mp4](https://github.com/priyadharshini1711/trend-detective/blob/main/docs/demo/Trend-Detective-Demo-Voiceover.mp4)
+
 Click anywhere on Earth, pick something you're curious about, and Trend Detective interrogates 45 years of NASA data (MERRA-2 reanalysis + CERES radiation, via NASA POWER) to answer: *is it really changing, or just wiggling?* And if it isn't clear yet, it tells you **how many more years of data you'd need**.
 
 ## What's inside

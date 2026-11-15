@@ -57,14 +57,14 @@ Record your screen with OBS or the Windows Game Bar (Win+Alt+R) at 1080p.
 
 ---
 
-# 🔗 Links checklist (paste after deploying)
+# 🔗 Links
 
-| Field | Where to get it | Link |
-|---|---|---|
-| Live app | Netlify → Site overview | `https://<your-site>.netlify.app` |
-| Source code | GitHub repo (public) | `https://github.com/<you>/trend-detective` |
-| Demo (30-second video) | Upload `docs/demo/Trend-Detective-Demo-30s.mp4` to YouTube (Unlisted or Public) or Google Drive ("Anyone with the link") | `https://...` |
-| Demo (slides, alternative) | Upload `docs/Trend-Detective-Presentation.pdf` to Google Drive ("Anyone with the link") | `https://...` |
+| Field | Link |
+|---|---|
+| Live app | https://trend-detective.netlify.app/ |
+| Source code | https://github.com/priyadharshini1711/trend-detective |
+| Demo video (voice-over) | https://github.com/priyadharshini1711/trend-detective/blob/main/docs/demo/Trend-Detective-Demo-Voiceover.mp4 |
+| Demo (slides, alternative) | https://github.com/priyadharshini1711/trend-detective/blob/main/docs/Trend-Detective-Presentation.pdf |
 
-After pasting the links, replace the `[paste … URL]` text on slides 1 and 7 of `docs/Trend-Detective-Presentation.pptx`, then re-export the PDF (File → Export → PDF).
+These links are on slide 7 of `docs/Trend-Detective-Presentation.pptx` (and its PDF export).
 Architecture diagrams (current + Azure): `docs/ARCHITECTURE.md`.

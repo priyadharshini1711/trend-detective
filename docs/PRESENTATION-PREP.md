@@ -213,7 +213,7 @@ New pieces:
 **Delivery tips**
 - Say "**detect**, not attribute" whenever someone says "proves climate change".
 - If you don't know an answer, say: "Good question. Our current build does X; the honest limitation is Y; the fix we'd make is Z." Judges reward honesty far more than bluffing.
-- Before slide 1, replace `[paste Netlify URL]` and `[paste GitHub URL]` on slides 1 and 7.
+- Slide 7 links: live app https://trend-detective.netlify.app/ · code https://github.com/priyadharshini1711/trend-detective · demo video https://github.com/priyadharshini1711/trend-detective/blob/main/docs/demo/Trend-Detective-Demo-Voiceover.mp4
 
 ---
 
